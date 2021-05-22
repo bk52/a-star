@@ -1,0 +1,47 @@
+{
+  "name": "a-star-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "web": "webpack --mode production && webpack serve",
+    "build": "webpack --mode production",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "path finding",
+    "pathfinding",
+    "a*",
+    "a-star",
+    "a star",
+    "algorithm",
+    "javascript",
+    "react",
+    "reactjs"
+  ],
+  "author": "BK52",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "nodemon": "^2.0.6",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
